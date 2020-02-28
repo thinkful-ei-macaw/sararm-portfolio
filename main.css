@@ -161,6 +161,14 @@ h2 {
   color: #FF8D3F;
 }
 
+li {
+  padding: 10px;
+  margin-bottom: 5px;
+  list-style-type: none;
+  border: solid 1px #756867;
+  box-shadow: 1px 1px 1px 1px;
+}
+
 article {
   min-height: 200px;
   padding: 6% 6%;
