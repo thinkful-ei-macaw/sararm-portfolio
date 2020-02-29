@@ -40,3 +40,79 @@ section {
 section:nth-child(even) {
   background-color: #ddd;
 }
+
+@media screen and (min-width: 500px){
+
+}
+
+@media screen and (min-width: 768px){
+
+
+
+  .bio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bio_pt1 {
+    text-align: left;
+  }
+
+  .bio_pt2{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bio_pt3 {
+    text-align: right;
+  }
+
+  .interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .interest {
+    border: solid 1px #353C3F;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .undergrad, .grad {
+    width: 400px;
+    height: 400px;
+  }
+
+  #quizapp, #bookmarkapp, #comingsoon {
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    border: solid black;
+    margin-bottom: 10px;
+  }
+
+  #quizappimg, #bookmarkappimg {
+    height: 194px;
+    width: 194px;
+  }
+
+  #comingsoontext{
+    padding-top: 30%;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+
+
+}
